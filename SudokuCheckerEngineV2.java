@@ -1,3 +1,9 @@
+// Muhammad Rifqi Akbari
+// CS 143
+// HW Core Topics: test the MySudokuBoard class by automatically running a series of checks
+// on various Sudoku boards to verift their validity and whether they are correctly solved.
+
+
 public class SudokuCheckerEngineV2 {
 
    public static void main(String[] args) {
@@ -106,3 +112,26 @@ public class SudokuCheckerEngineV2 {
          System.out.println("**** HORRAY: ALL TESTS PASSED ****");
    }
 }
+
+/*
+
+Paste the output from JGrasp here.
+Altering output will earn you an automatic zero for the assignment.
+
+ 
+  ----jGRASP exec: java SudokuCheckerEngineV2
+ Checking empty board...passed.
+ Checking incomplete, valid board...passed.
+ Checking complete, valid board...passed.
+ Checking dirty data board...passed.
+ Checking row violating board...passed.
+ Checking col violating board...passed.
+ Checking row&col violating board...passed.
+ Checking mini-square violating board...passed.
+ **** HORRAY: ALL TESTS PASSED ****
+ 
+  ----jGRASP: Operation complete.
+ 
+ 
+
+*/
